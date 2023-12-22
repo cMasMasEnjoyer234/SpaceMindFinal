@@ -1,0 +1,18 @@
+// este txt contendra la documentacion de formulario Editar xd
+
+(
+id: es intuitivo pero si no, este es el numero que diferenciara de cada dato para poder hacer busquedas
+referentes a este.
+)
+
+Flujo normal:
+-El usuario selecciona opcion "Editar conceptos"
+-El usuario pondra pregunta modificada
+-El usuario pondra respuesta modificada
+-El usuario pondra fecha de repaso modificada
+-El usuario pondra nivel modificado 
+-El usuario le dara click a "Ok" y se terminara caso de uso.
+
+Flujo alternativo:
+-Si usuario presiona mas de una ves "Editar conceptos", se indicara que no se puede.
+-Si usuario no deseaba abrir "Editar conceptos", le dara click a "cancelar" y terminara caso de uso.

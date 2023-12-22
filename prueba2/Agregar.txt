@@ -1,0 +1,30 @@
+// este txt contendra la documentacion de formulario agregar xd
+Conceptos
+(
+Pregunta: Es una pregunta relacinada con el concepto en cuestion.
+
+Respuesta: Es la respuesta de esa pregunta.
+
+Fecha de repaso: La F.D.R esta encargada de emitir el dia, mes, año, el cual, el concepto sera repasado.
+
+Nivel: El campo nivel se trata cuantos dias se tiene que repasar cada concepto.
+
+(lvl:1 = 1 dia, lvl:2 = 1 semana, lvl:3 = 2 semanas, lvl:4 = 28 dias (1 mes))
+// esto es estimado, y es regulado por el propio usuario a su conveniencia.
+)
+
+Nombre de clase: Agregar.h
+Desc: Agrega = pregunta, respuesta, fecha de repaso, nivel
+
+Flujo normal:
+-El usuario apreta boton "agregar conceptos"
+-El usuario ingresa una pregunta
+-El usuario ingresa la respuesta
+-El usuario ingresa fecha de repaso
+-El usuario le da al boton de "cancelar" para salir
+-Se termina caso de uso.
+
+Flujo alternativo:
+-Si usuario presiona más de una vez "agregar conceptos" se indicara que no se puede.
+-Si usuario no deseaba abrir "agregar conceptos", le dara click a "cancelar" y terminara caso de uso.
+-Se continua caso de uso hasta terminar el flujo normal.
