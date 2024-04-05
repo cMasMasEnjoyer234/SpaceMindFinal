@@ -271,7 +271,7 @@ namespace prueba2 {
 		Int32^ id_ = Convert::ToInt32(lbl_idActual->Text); //3 int32
 		int a = 0;
 		try {
-			String^ con = "dataSource=localhost; username=root; password=1234; database=spacemind";
+			String^ con = "dataSource=localhost; username=root; password=; database=spacemind";
 
 			MySqlConnection^ sqlConn = gcnew MySqlConnection(con);
 			sqlConn->Open();
