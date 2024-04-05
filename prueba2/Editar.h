@@ -370,7 +370,7 @@ namespace prueba2 {
 		String^ respuesta = txtr_resActual->Text;
 		int a = 0;
 		try {
-			String^ con = "dataSource=localhost; username=root; password=1234; database=spacemind";
+			String^ con = "dataSource=localhost; username=root; password=; database=spacemind";
 
 			MySqlConnection^ sqlConn = gcnew MySqlConnection(con);
 			sqlConn->Open();

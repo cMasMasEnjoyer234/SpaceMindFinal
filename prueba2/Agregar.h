@@ -51,6 +51,7 @@ namespace prueba2 {
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::Button^ btn_agregar;
 	private: System::Windows::Forms::Button^ btn_volver;
+
 	protected:
 
 	private:
@@ -220,12 +221,15 @@ namespace prueba2 {
 				fecha += dia_[i];
 			}
 		}
+
+
+		
 		String^ pregunta = txtr_preguntaAgregar->Text;
 		String^ respuesta = txtr_resAgregar->Text;
 
 		int a = 0;
 		try {
-			String^ con = "dataSource=localhost; username=root; password=1234; database=spacemind";
+			String^ con = "dataSource=localhost; username=root; password=; database=spacemind";
 
 			MySqlConnection^ sqlConn = gcnew MySqlConnection(con);
 			sqlConn->Open();
@@ -255,5 +259,6 @@ namespace prueba2 {
 			MessageBox::Show("Concepto Agregado!");
 		}
 	}
+
 };
 }

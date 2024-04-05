@@ -1,4 +1,4 @@
-#include "Conceptos.h"
+#include "MENU.h"
 //include <string>
 //#include "MiForma.h"
 //#include "user.h"
@@ -22,11 +22,11 @@ void User::set_res(String^ res_)
 int main(array<String^>^ args) {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	prueba2::Conceptos Conceptos;
+	prueba2::MENU^ ver = gcnew prueba2::MENU();
 	//prueba2::MiForma MiForma;
 
 	
-	Conceptos.ShowDialog();
+	ver->ShowDialog();
 	//MierdaForm.cargar_bd();
 	//MiForma.ShowDialog();
 	//User^ user = MierdaForm.user;

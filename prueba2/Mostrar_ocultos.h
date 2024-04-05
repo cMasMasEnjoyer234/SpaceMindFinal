@@ -156,7 +156,7 @@ namespace prueba2 {
 
 	public: void cargar_bd() {
 		try {
-			String^ con = "dataSource=localhost; username=root; password=1234; database=spacemind";
+			String^ con = "dataSource=localhost; username=root; password=; database=spacemind";
 			MySqlConnection^ sqlConn = gcnew MySqlConnection(con);
 			sqlConn->Open();
 
@@ -187,7 +187,7 @@ namespace prueba2 {
 			User::User(id);
 
 			try {
-				String^ con = "dataSource=localhost; username=root; password=1234; database=spacemind";
+				String^ con = "dataSource=localhost; username=root; password=; database=spacemind";
 
 				MySqlConnection^ sqlConn = gcnew MySqlConnection(con);
 				sqlConn->Open();
