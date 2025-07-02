@@ -27,59 +27,6 @@ int main(array<String^>^ args) {
 
 	
 	ver->ShowDialog();
-	//MierdaForm.cargar_bd();
-	//MiForma.ShowDialog();
-	//User^ user = MierdaForm.user;
-
-
-	
-	/*
-	if (user != nullptr){
-		MessageBox::Show("funciono mono!@->" + user->nombre,
-			"mainn.cpp", MessageBoxButtons::OK);
-
-	}
-	else{
-		MessageBox::Show("no pesco mono!@->" + user->nombre,
-			"mainn.cpp", MessageBoxButtons::OK);
-
-	}
-	*/
-
-
-	/*
-		MierdaForm.ShowDialog();
-	User^ user = MierdaForm.user;
-
-	if (user != nullptr){
-		MessageBox::Show("funciono mono!@->" + user->nombre,
-			"mainn.cpp", MessageBoxButtons::OK);
-
-	}
-	else{
-		MessageBox::Show("no pesco mono!@->" + user->nombre,
-			"mainn.cpp", MessageBoxButtons::OK);
-
-	}
-	*/
-
-
-	/*
-	TextBox^ inputTextBox = gcnew TextBox();
-	inputTextBox->Multiline = true;
-
-	// Crea un MessageBox con un cuadro de texto de entrada
-	DialogResult result = MessageBox::Show(inputTextBox, "Introduce un texto:", "Mensaje con entrada de texto", MessageBoxButtons::OKCancel);
-
-	// Muestra el texto ingresado si el usuario hace clic en OK
-	if (result == DialogResult::OK)
-	{
-		String^ userInput = inputTextBox->Text;
-		MessageBox::Show("Texto ingresado: " + userInput);
-	}
-	
-	*/
-
 
 
 }
